@@ -7,14 +7,14 @@ function App() {
   return (
     <>
       <MapLibreMap
-        mapId="map_1"
+        mapId="main_map"
         options={{
           zoom: 8,
-          style: "https://wms.wheregroup.com/tileserver/style/osm-bright.json",
+          style: "https://tiles.stadiamaps.com/styles/alidade_smooth_dark.json",
           center: [7.0851268, 50.73884],
         }}
       />
-      <MlNavigationTools mapId="map_1" />
+      <MlNavigationTools mapId="main_map" />
     </>
   );
 }
