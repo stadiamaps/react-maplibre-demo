@@ -1,10 +1,10 @@
-# Getting Started with React
+# Getting Started with React and MapLibre
 
-This project will get you started using Stadia Maps in a React application. It was bootstrapped with
-[Create React App](https://github.com/facebook/create-react-app) and the
+This project will get you started using Stadia Maps in a React application using [React Map Components for MapLibre](https://github.com/mapcomponents/react-map-components-maplibre).
+It was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and the
 [@mapcomponents/cra-template](https://github.com/mapcomponents/react-map-components-maplibre-cra-template) template.
 
-You can quickly bootstrap a new full-screen map app using the provided MapComponents template like so:
+You can quickly bootstrap a new full-screen map app using the template from MapComponents like so:
 
 ```shell
 npx create-react-app react-map-demo --template @mapcomponents/cra-template
